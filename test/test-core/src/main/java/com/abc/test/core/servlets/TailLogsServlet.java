@@ -27,7 +27,7 @@ import java.io.PrintWriter;
 import java.io.RandomAccessFile;
 /**
  * Created by fisherwoon on 26/4/16.
- * Experience AEM Tail Logs
+ * Experience AEM Tail Logs   
  * Refer to http://experience-aem.blogspot.sg/2015/03/aem-6-sp2-view-tail-cq-log-files.html
  */
 @Component(
