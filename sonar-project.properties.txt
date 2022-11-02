@@ -1,5 +1,6 @@
 sonar.projectKey=namitkochar18_test
 sonar.organization=namitkochar18
+<sonar.login>70d7b07410229e3a168aaf4bee5196b6525ae108</sonar.login>
 
 # This is the name and version displayed in the SonarCloud UI.
 #sonar.projectName=test
