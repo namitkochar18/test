@@ -17,9 +17,9 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 wait()java.lang.Object#wait()V*
 
 hashCode()java.lang.Object#hashCode()I*
-SlingAllMethodsServletjava.lang.Objectô
-.com.ford.guxfoap.core.servlets.TailLogsServletSlingAllMethodsServletD
-<init>()8com.ford.guxfoap.core.servlets.TailLogsServlet#<init>()Vã
-Wactivate(Lcom/ford/guxfoap/core/servlets/TailLogsServlet$TailLogsServletConfiguration;)‡com.ford.guxfoap.core.servlets.TailLogsServlet#activate(Lcom/ford/guxfoap/core/servlets/TailLogsServlet$TailLogsServletConfiguration;)V3
-java.lang.annotation.Annotationjava.lang.Object€
-Kcom.ford.guxfoap.core.servlets.TailLogsServlet$TailLogsServletConfigurationjava.lang.annotation.Annotationjava.lang.Object
+SlingAllMethodsServletjava.lang.Objectß
+*com.abc.test.core.servlets.TailLogsServletSlingAllMethodsServlet@
+<init>()4com.abc.test.core.servlets.TailLogsServlet#<init>()VÖ
+Sactivate(Lcom/abc/test/core/servlets/TailLogsServlet$TailLogsServletConfiguration;)com.abc.test.core.servlets.TailLogsServlet#activate(Lcom/abc/test/core/servlets/TailLogsServlet$TailLogsServletConfiguration;)V3
+java.lang.annotation.Annotationjava.lang.Object|
+Gcom.abc.test.core.servlets.TailLogsServlet$TailLogsServletConfigurationjava.lang.annotation.Annotationjava.lang.Object
