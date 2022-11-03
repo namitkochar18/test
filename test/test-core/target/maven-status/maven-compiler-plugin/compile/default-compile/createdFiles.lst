@@ -1,0 +1,3 @@
+com\abc\test\core\package-info.class
+com\abc\test\core\servlets\TailLogsServlet.class
+com\abc\test\core\servlets\TailLogsServlet$TailLogsServletConfiguration.class

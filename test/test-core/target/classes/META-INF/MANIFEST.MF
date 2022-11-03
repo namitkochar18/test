@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1667424529561
+Build-Jdk-Spec: 11
+Bundle-Category: abc AEM GUX
+Bundle-ClassPath: .,commons-csv-1.3.jar,commons-io-2.8.0.jar
+Bundle-Description: AEM Core bundle for abc
+Bundle-ManifestVersion: 2
+Bundle-Name: abc AEM test - Core
+Bundle-SymbolicName: com.abc.test
+Bundle-Version: 2.26.9.local
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Embed-Dependency: commons-csv,commons-io
+Embedded-Artifacts: commons-csv-1.3.jar;g="org.apache.commons";a="common
+ s-csv";v="1.3",commons-io-2.8.0.jar;g="commons-io";a="commons-io";v="2.
+ 8.0"
+Export-Package: au.com.bytecode.opencsv;version="2.26.9.local",au.com.by
+ tecode.opencsv.bean;uses:="au.com.bytecode.opencsv";version="2.26.9.loc
+ al",com.abc.test.core;version="1.0",com.abc.test.core.servlets;uses:="j
+ avax.servlet,org.apache.sling.api,org.apache.sling.api.servlets,org.apa
+ che.sling.settings";version="2.26.9.local",apps.sling.servlet.errorhand
+ ler;version="2.26.9.local"
+Implementation-Title: abc AEM test - Core
+Implementation-Version: 2.20.16-SNAPSHOT
+Import-Package: com.abc.test.core.servlets,java.beans,java.io,java.lang,
+ java.lang.annotation,java.lang.invoke,java.lang.ref,java.lang.reflect,j
+ ava.math,java.net,java.nio,java.nio.channels,java.nio.charset,java.nio.
+ file,java.nio.file.attribute,java.security,java.text,java.time,java.tim
+ e.chrono,java.util,java.util.concurrent,java.util.function,java.util.re
+ gex,java.util.stream,java.util.zip,javax.servlet;version="[3.1,4)",org.
+ apache.commons.lang3;version="[3.12,4)",org.apache.sling.api;version="[
+ 2.3,3)",org.apache.sling.api.servlets;version="[2.3,3)",org.apache.slin
+ g.commons.json;version="[2.0,3)",org.apache.sling.settings;version="[1.
+ 3,2)",org.slf4j;version="[1.7,2)",javax.annotation;version="0.0.0"
+Provide-Capability: osgi.service;objectClass:List<String>="javax.servlet
+ .Servlet";uses:="javax.servlet"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.service;filter:="(objectC
+ lass=org.apache.sling.settings.SlingSettingsService)";effective:=active
+ ,osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Service-Component: OSGI-INF/com.abc.test.core.servlets.TailLogsServlet.x
+ ml
+Sling-Model-Packages: com.abc.test
+Specification-Title: abc AEM test - Core
+Specification-Version: 2.20
+Tool: Bnd-6.3.1.202206071316
