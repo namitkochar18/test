@@ -38,9 +38,9 @@
 			<sonar.password>bigstep</sonar.password>
 			<sonar.sources>src\main\java\com\abc\test\core\servlets</sonar.sources>-->
 
-  <sonar.organization>namitkochar18</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-<sonar.login>70d7b07410229e3a168aaf4bee5196b6525ae108</sonar.login>
+  <!--<sonar.organization>namitkochar18</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>-->
+<sonar.login>05d3fc88d64be44c4a854b09d64ab0b4d94dc83a</sonar.login>
     </properties>
 
     <modules>
